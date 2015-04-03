@@ -1,0 +1,27 @@
+algoritmo "semnome"
+
+var
+   A: Inteiro
+   B: Real
+   
+inicio
+      A <- Abs(-50) //Abs: retorna o valor absoluto
+      Escreval(A)
+      
+      B<- Exp(9, 5)
+      Escreval(B)
+      
+      B<- RaizQ(81)
+      Escreval(B)
+      
+      B<- Int(RaizQ(90))  //Int: retorna a parte inteira da divisão
+      Escreval(B)
+      
+      B<- GraupRad(90) // GraupRad: converte graus para radianos
+      Escreval(B)
+      
+      B<- Sen(GraupRad(90)) //Sen: retorna o valor de sen em radianos
+      Escreval(B)
+      
+      
+fimalgoritmo
