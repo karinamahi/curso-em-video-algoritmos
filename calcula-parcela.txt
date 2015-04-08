@@ -1,0 +1,16 @@
+algoritmo "CalculaParcela"
+
+var
+    emprestimo, valor_parc, divida: Real
+    qtde_parc: Inteiro
+inicio
+      Escreva("Quanto você quer de emprestar ? R$ ")
+      Leia(emprestimo)
+      divida <- (emprestimo + (emprestimo*20/100))
+      Escreval("O valor total da dívida será de R$ " , divida)
+      Escreva("Em quantas vezes você quer parcelar? ")
+      Leia(qtde_parc)
+      valor_parc <- divida/qtde_parc
+      Escreval("O valor da parcela será R$ ", valor_parc:7:2)
+
+fimalgoritmo

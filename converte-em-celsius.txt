@@ -1,0 +1,12 @@
+algoritmo "ConverteEmCelsius"
+
+var
+     f, c: Real
+
+inicio
+      Escreva("Qual é a temperatura em Fahrenheit? ")
+      Leia(f)
+      c <- (f - 32 )/ 1.8
+      Escreva("A temperatura em Celsius é ", c:4:1)
+
+fimalgoritmo

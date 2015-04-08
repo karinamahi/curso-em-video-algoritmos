@@ -1,0 +1,11 @@
+algoritmo "CalculaImposto"
+
+var
+ imposto, preco: Real
+
+inicio
+      Escreva("Qual o valor do produto? US$ ")
+      Leia(preco)
+      imposto <- preco*60/100
+      Escreva(" O valor do imposto será de US$ ", imposto:5:2)
+fimalgoritmo
